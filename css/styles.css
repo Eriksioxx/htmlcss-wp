@@ -50,7 +50,7 @@ ul a {
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    margin: 20px 0;
+    margin: 20px 0 30px 0;
 }
 
 .overlay {
@@ -73,48 +73,112 @@ ul a {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin: 0 570px 0 50px;
-    opacity: 1;
 }
-main .header {
-    height: 60px;
-    background-color: lightblue;
-    margin: 0px;
+.main-header {
+    height: 100%;
+    margin-bottom: 30px;
 }
 
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    font-weight:bolder;
+}
+
+.header-p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #9f9f9f;
+}
+
+/* RIQUADRO CONTROLLO */
 main .blue {
-    height: 330px;
-    background-color: #0484ff;
-    margin: auto;
+    height: 400px;
     margin-bottom: 20px;
 }
+/* / RIQUADRO CONTROLLO */
 
 .blue .aside-left {
     float: left;
-    height: 300px;
     width: 23%;
-    margin-top: 15px;
-    background-color: lightblue;
+    margin-right: 2%;
+}
+
+.image1 {
+    background-image: url(../img/img-1.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.overlay-image1 {
+    background:black; 
+    opacity: 0.3;
+    height: 200px;
+    border-radius: 15px;
 }
 
 .blue .article {
     float: left;
-    height: 300px;
     width: 50%;
-    margin: 15px 2%;
-    background-color: lightblue;
+    height: 500px;
+    margin-right: 2%;
+}
+
+.image2 {
+    background-image: url(../img/banner-2.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.overlay-image2 {
+    background:black; 
+    opacity: 0.3;
+    height: 200px;
+    border-radius: 15px;
 }
 
 .blue .aside-right {
     float: left;
-    height: 300px;
     width: 23%;
-    margin-top: 15px;
-    background-color: lightblue;
 }
 
-.container .purple {
-    height: 50px;
-    background-color: #8801fe;
-    margin: auto;
+.image3 {
+    background-image: url(../img/img-3.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
 }
 
+.overlay-image3 {
+    background:black; 
+    opacity: 0.3;
+    height: 200px;
+    border-radius: 15px;
+}
+
+h4 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5d5d5d;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.paragrafo-blue {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #9f9f9f;
+    font-size: 15px;
+
+}
+
+#footer-p {
+    float: left;
+    color: black;
+    font-size: 18px;
+    margin: 10px 0 0 -500px;
+
+}
